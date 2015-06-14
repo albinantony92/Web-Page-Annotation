@@ -1,0 +1,54 @@
+/* Popup menu styles */
+body {
+    min-width: 100px;
+    overflow-x: hidden;
+    background-color:aliceblue;
+    font-family: "Verdana";
+    font-size: 15px;
+}
+#sketch {
+    border: 2px;
+    height: 20px;
+    width: 130px;
+    text-align: center;
+}
+.menuItem {
+    margin:0;
+    margin-bottom: 10px;
+    padding:5px;
+    text-align: center;
+    vertical-align: middle;
+    width: 120px;
+}
+.menuItem:hover {
+    background-color:white;
+}
+/*/* Highlighter styles */
+.crx_mouse_visited {
+    background-color: #bcd5eb;
+    outline: 1px solid #5166bb;
+}
+#tmp_canvas {
+    position: absolute;
+    left: 0px; right: 0;
+    bottom: 0; top: 0;
+    cursor: crosshair;
+}
+#canvas-draw
+{
+    display: none;
+}
+#clear-area
+{
+    display: none;
+}
+#close-area
+{
+    display: none;
+}
+
+/* 
+    Created on : May 5, 2015, 10:33:14 AM
+    Author     : Albin Antony
+*/
+
